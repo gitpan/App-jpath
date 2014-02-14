@@ -1,6 +1,6 @@
 package App::jpath;
 
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 1;
 # ABSTRACT: Command-line tool for JSON::Path
@@ -17,7 +17,7 @@ App::jpath - Command-line tool for JSON::Path
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
