@@ -17,8 +17,10 @@ meta-spec:
   version: '1.4'
 name: App-jpath
 requires:
-  Data::Dump: '0'
   Data::Format::Pretty::Console: '0'
+  Data::Format::Pretty::JSON: '0'
+  Data::Format::Pretty::Perl: '0'
+  Data::Format::Pretty::YAML: '0'
   JSON: '0'
   JSON::Path: '0'
   YAML::Syck: '0'
@@ -27,7 +29,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=App-jpath
   homepage: https://metacpan.org/release/App-jpath
   repository: git://github.com/sharyanto/perl-App-jpath.git
-version: '0.02'
+version: '0.03'
 x_Dist_Zilla:
   perl:
     version: '5.010001'

@@ -23,8 +23,10 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "App::jpath",
   "PREREQ_PM" => {
-    "Data::Dump" => 0,
     "Data::Format::Pretty::Console" => 0,
+    "Data::Format::Pretty::JSON" => 0,
+    "Data::Format::Pretty::Perl" => 0,
+    "Data::Format::Pretty::YAML" => 0,
     "JSON" => 0,
     "JSON::Path" => 0,
     "YAML::Syck" => 0
@@ -35,7 +37,7 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -43,8 +45,10 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Data::Dump" => 0,
   "Data::Format::Pretty::Console" => 0,
+  "Data::Format::Pretty::JSON" => 0,
+  "Data::Format::Pretty::Perl" => 0,
+  "Data::Format::Pretty::YAML" => 0,
   "File::Spec" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
